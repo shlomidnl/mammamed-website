@@ -28,7 +28,7 @@ const HomePage = () => {
                 Join Waitlist
               </button>
               <Link to="/mother" className="btn btn-secondary btn-large">
-                View Demo
+                Take a Tour
               </Link>
             </div>
           </div>
