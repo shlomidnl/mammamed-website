@@ -62,8 +62,8 @@ const PatientApp = () => {
         <Link to="/" className="btn btn-primary">
           Back to Home
         </Link>
-        <Link to="/mother" className="btn btn-secondary">
-          View Patient App
+        <Link to="/doctor" className="btn btn-secondary">
+          View Doctor Board
         </Link>
       </div>
     </PageWrapper>
