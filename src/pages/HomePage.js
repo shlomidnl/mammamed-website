@@ -25,7 +25,7 @@ const HomePage = () => {
                 className="btn btn-primary btn-large"
                 onClick={() => setShowWaitlist(true)}
               >
-                Join Waitlist
+                Join the Waitlist
               </button>
               <Link to="/mother" className="btn btn-secondary btn-large">
                 Take a Tour 🤳
@@ -111,7 +111,7 @@ const HomePage = () => {
               className="btn btn-primary"
               onClick={() => setShowWaitlist(true)}
             >
-              Join Waitlist
+              Join the Waitlist
             </button>
           </div>
         </div>

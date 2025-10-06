@@ -100,7 +100,7 @@ const WaitlistForm = ({ onClose }) => {
               </label>
 
               <button type="submit" form="sib-form" className="btn btn-primary btn-block">
-                Join Waitlist
+                Join the Waitlist
               </button>
 
               <input type="text" name="email_address_check" value="" class="input--hidden" />
