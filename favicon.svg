@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E91E63" />
+      <stop offset="100%" stop-color="#9C27B0" />
+    </linearGradient>
+  </defs>
+  <path d="M50,10 C30,10 15,25 15,45 C15,65 30,80 50,80 C70,80 85,65 85,45 C85,25 70,10 50,10 Z" fill="url(#gradient)" />
+  <path d="M35,35 C30,40 30,50 35,55 C40,60 50,60 55,55 C60,50 60,40 55,35 C50,30 40,30 35,35 Z" fill="white" />
+  <path d="M65,35 C60,40 60,50 65,55 C70,60 80,60 85,55 C90,50 90,40 85,35 C80,30 70,30 65,35 Z" fill="white" />
+  <path d="M50,65 C45,65 40,70 40,75 C40,80 45,85 50,85 C55,85 60,80 60,75 C60,70 55,65 50,65 Z" fill="white" />
+</svg>
