@@ -23,7 +23,6 @@ const WaitlistForm = ({ onClose }) => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    // In a real app, this would send the data to a server
     console.log('Form submitted:', formData);
     setSubmitted(true);
   };
@@ -62,58 +61,6 @@ const WaitlistForm = ({ onClose }) => {
                   required
                 />
               </div>
-              
-              <div className="form-group">
-                <label>I am a:</label>
-                <div className="radio-group">
-                  <label className="radio-label">
-                    <input
-                      type="radio"
-                      name="role"
-                      value="patient"
-                      checked={formData.role === 'patient'}
-                      onChange={handleChange}
-                    />
-                    Expectant Mother
-                  </label>
-                  <label className="radio-label">
-                    <input
-                      type="radio"
-                      name="role"
-                      value="doctor"
-                      checked={formData.role === 'doctor'}
-                      onChange={handleChange}
-                    />
-                    Healthcare Provider
-                  </label>
-                </div>
-              </div>
-              
-              {formData.role === 'patient' && (
-                <div className="form-group">
-                  <label htmlFor="dueDate">Expected Due Date (if known)</label>
-                  <input
-                    type="date"
-                    id="dueDate"
-                    name="dueDate"
-                    value={formData.dueDate}
-                    onChange={handleChange}
-                  />
-                </div>
-              )}
-              
-              {formData.role === 'doctor' && (
-                <div className="form-group">
-                  <label htmlFor="hospital">Hospital/Clinic Name</label>
-                  <input
-                    type="text"
-                    id="hospital"
-                    name="hospital"
-                    value={formData.hospital}
-                    onChange={handleChange}
-                  />
-                </div>
-              )}
               
               <div className="form-group">
                 <label htmlFor="message">Additional Information (optional)</label>
