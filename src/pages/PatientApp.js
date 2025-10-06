@@ -58,14 +58,14 @@ const PatientApp = () => {
         <Footer />
       </AppContainer>
 
-      <DemoControls>
+      <div className="demo-controls">
         <Link to="/" className="btn btn-primary">
           Back to Home
         </Link>
-        <Link to="/doctor" className="btn btn-secondary">
-          View Doctor Dashboard
+        <Link to="/mother" className="btn btn-secondary">
+          View Patient App
         </Link>
-      </DemoControls>
+      </div>
     </PageWrapper>
   );
 };
