@@ -50,7 +50,6 @@ const PatientApp = () => {
             startDate="Jan 15, 2025"
             endDate="Sep 22, 2025"
           />
-          <WellnessOverview />
           <TabNavigation activeTab={activeTab} setActiveTab={setActiveTab} />
           <ContentArea>
             {renderContent()}
