@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './PatientApp.css';
 import styled from 'styled-components';
@@ -14,7 +14,12 @@ import LabResults from '../components/LabResults';
 import Footer from '../components/MomFooter';
 
 const PatientApp = () => {
-  const [activeTab, setActiveTab] = useState('lab-results');
+  const [activeTab, setActiveTab] = useState('wellness');
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const renderContent = () => {
     switch (activeTab) {
@@ -31,7 +36,7 @@ const PatientApp = () => {
       case 'learn':
         return <div><Learn /></div>;
       default:
-        return <LabResults />;
+        return <Activities />;
     }
   };
 

@@ -9,7 +9,7 @@ const DoctorDashboard = () => {
   const patients = [
     {
       id: 1,
-      name: 'Līga Bērziņa',
+      name: 'Līga B.',
       age: 28,
       week: 12,
       risk: 'low',
@@ -27,7 +27,7 @@ const DoctorDashboard = () => {
     },
     {
       id: 2,
-      name: 'Dace Kalniņa',
+      name: 'Dace K.',
       age: 32,
       week: 24,
       risk: 'high',
@@ -45,7 +45,7 @@ const DoctorDashboard = () => {
     },
     {
       id: 3,
-      name: 'Anna Ozoliņa',
+      name: 'Anna O.',
       age: 30,
       week: 8,
       risk: 'moderate',

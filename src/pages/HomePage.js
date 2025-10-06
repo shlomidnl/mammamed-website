@@ -82,7 +82,7 @@ const HomePage = () => {
               <div className="demo-image">
                 <img src="/images/ignacio-campo-FKOjXAbJWlw-unsplash.jpg" alt="MammaMed Patient App" />
               </div>
-              <h3>Mamma Mobile App</h3>
+              <h3>Mobile App</h3>
               <p>Experience the user-friendly interface designed for expectant mothers to track their pregnancy journey.</p>
               <Link to="/mother" className="btn btn-primary">
                 Try Patient Demo

@@ -8,7 +8,7 @@ const Appointments = () => {
     {
       id: 1,
       title: 'Regular Prenatal Check-up',
-      doctor: 'Dr. Anna Bērziņa',
+      doctor: 'Dr. Anna',
       date: 'October 15, 2025',
       time: '10:30 AM',
       location: 'Riga Maternity Hospital',
@@ -17,7 +17,7 @@ const Appointments = () => {
     {
       id: 2,
       title: 'Second Trimester Ultrasound',
-      doctor: 'Dr. Līga Kļaviņa',
+      doctor: 'Dr. Līga',
       date: 'October 28, 2025',
       time: '2:15 PM',
       location: 'Women\'s Health Center',
@@ -26,7 +26,7 @@ const Appointments = () => {
     {
       id: 3,
       title: 'Prenatal Nutrition Consultation',
-      doctor: 'Nutritionist Zane Ozoliņa',
+      doctor: 'Nutritionist Zane',
       date: 'November 5, 2025',
       time: '11:00 AM',
       location: 'Riga Maternity Hospital',

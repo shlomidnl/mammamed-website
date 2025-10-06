@@ -3,10 +3,10 @@ import styled from 'styled-components';
 
 const TabNavigation = ({ activeTab, setActiveTab }) => {
   const tabs = [
-    { id: 'lab-results', label: 'Labs', icon: '🧪' },
-    { id: 'appointments', label: 'Visits', icon: '📅' },
-    { id: 'activities', label: 'Tasks', icon: '✓' },
     { id: 'wellness', label: 'Wellness', icon: '❤️' },
+    { id: 'appointments', label: 'Visits', icon: '📅' },
+    { id: 'lab-results', label: 'Labs', icon: '🧪' },
+    { id: 'activities', label: 'Tasks', icon: '✓' },
     { id: 'learn', label: 'Learn', icon: '📚' },
     { id: 'community', label: 'Community', icon: '👥' },
   ];
