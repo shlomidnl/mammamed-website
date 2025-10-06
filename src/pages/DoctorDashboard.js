@@ -236,7 +236,7 @@ const DoctorDashboard = () => {
           Back to Home
         </Link>
         <Link to="/mother" className="btn btn-secondary">
-          View Patient App
+          View Mobile App
         </Link>
       </div>
     </div>

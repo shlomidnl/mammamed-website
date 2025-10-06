@@ -29,7 +29,7 @@ const NotFound = () => {
                 Go Home
               </Link>
               <Link to="/mother" className="btn btn-secondary">
-                Try Patient Demo
+                Try App Demo
               </Link>
             </div>
           </div>

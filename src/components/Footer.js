@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="footer-column">
               <h3>Demo</h3>
               <ul>
-                <li><Link to="/mother">Patient App</Link></li>
+                <li><Link to="/mother">Mobile App</Link></li>
                 <li><Link to="/doctor">Doctor Dashboard</Link></li>
               </ul>
             </div>

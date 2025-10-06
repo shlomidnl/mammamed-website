@@ -28,7 +28,7 @@ const HomePage = () => {
                 Join Waitlist
               </button>
               <Link to="/mother" className="btn btn-secondary btn-large">
-                Take a Tour
+                Take a Tour 🤳
               </Link>
             </div>
           </div>
@@ -85,7 +85,7 @@ const HomePage = () => {
               <h3>Mobile App</h3>
               <p>Experience the user-friendly interface designed for expectant mothers to track their pregnancy journey.</p>
               <Link to="/mother" className="btn btn-primary">
-                Try Patient Demo
+                Try App Demo
               </Link>
             </div>
             <div className="demo-card">
