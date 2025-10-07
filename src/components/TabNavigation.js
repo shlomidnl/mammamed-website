@@ -29,7 +29,7 @@ const TabNavigation = ({ activeTab, setActiveTab }) => {
 
 const TabContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   background-color: white;
   border-radius: 15px;
   overflow: hidden;
