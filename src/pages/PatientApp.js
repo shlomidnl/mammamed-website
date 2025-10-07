@@ -11,7 +11,9 @@ import Learn from '../components/Learn';
 import Community from '../components/Community';
 import TabNavigation from '../components/TabNavigation';
 import LabResults from '../components/LabResults';
-import Footer from '../components/MomFooter';
+import BottomButtons from '../components/BottomButtons';
+import ChatWithDoctor from './ChatWithDoctor';
+import EmergencyHelp from './EmergencyHelp';
 
 const PatientApp = () => {
   const [activeTab, setActiveTab] = useState('wellness');
@@ -35,8 +37,12 @@ const PatientApp = () => {
         return <WellnessOverview />;
       case 'learn':
         return <div><Learn /></div>;
+      case 'chat':
+        return <div><ChatWithDoctor /></div>;
+      case 'emergency':
+        return <div><EmergencyHelp /></div>;
       default:
-        return <Activities />;
+        return <WellnessOverview />;
     }
   };
 
@@ -54,8 +60,8 @@ const PatientApp = () => {
           <ContentArea>
             {renderContent()}
           </ContentArea>
+        <BottomButtons setActiveTab={setActiveTab} />
         </MainContent>
-        <Footer />
       </AppContainer>
 
       <div className="demo-controls">

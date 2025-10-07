@@ -1,0 +1,54 @@
+.bottom-buttons-container {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bottom-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  gap: 8px;
+}
+
+.chat-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.chat-button:hover {
+  background-color: #43A047;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.emergency-button {
+  background-color: #F44336;
+  color: white;
+}
+
+.emergency-button:hover {
+  background-color: #E53935;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-icon {
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .bottom-buttons-container {
+    flex-direction: column;
+  }
+}

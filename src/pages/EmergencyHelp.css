@@ -1,0 +1,153 @@
+.emergency-container {
+  position: static;
+  width: 100%;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e1e1e1;
+  margin: 20px 0;
+  
+  @media (max-width: 768px) {
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+}
+
+.emergency-header {
+  background-color: #f44336;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.emergency-title {
+  display: flex;
+  align-items: center;
+}
+
+.emergency-icon {
+  margin-right: 10px;
+}
+
+.emergency-title h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.emergency-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.emergency-close:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.emergency-content {
+  padding: 15px;
+  overflow-y: visible;
+}
+
+.emergency-message {
+  display: flex;
+  align-items: center;
+  background-color: #fff8e1;
+  border-left: 4px solid #ffc107;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.warning-icon {
+  color: #ffc107;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.emergency-message p {
+  margin: 0;
+  font-size: 14px;
+  color: #5d4037;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-card {
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px;
+  transition: all 0.2s ease;
+}
+
+.contact-card:hover {
+  background-color: #eeeeee;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+  background-color: #f44336;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-info h3 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-info p {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.call-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.call-button:hover {
+  background-color: #e53935;
+}

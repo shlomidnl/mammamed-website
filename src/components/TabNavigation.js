@@ -29,12 +29,21 @@ const TabNavigation = ({ activeTab, setActiveTab }) => {
 
 const TabContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   background-color: white;
   border-radius: 15px;
   overflow: hidden;
   margin-bottom: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+  
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 const Tab = styled.button`
