@@ -41,9 +41,6 @@ const TabContainer = styled.div`
     gap: 2px;
   }
   
-  @media (max-width: 480px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
 `;
 
 const Tab = styled.button`
